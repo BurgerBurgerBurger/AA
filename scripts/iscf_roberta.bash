@@ -12,6 +12,9 @@ python run.py --data_dir dataset/docred \
 --num_labels 4 \
 --evi_thresh 0.2 \
 --num_class 97 \
+--attn_heads 1 \
+--gcn_layers 1 \
+--iters 2 \
 --use_graph
 
 python run.py --data_dir dataset/docred \
@@ -25,4 +28,7 @@ python run.py --data_dir dataset/docred \
 --num_labels 4 \
 --evi_thresh 0.2 \
 --num_class 97 \
+--attn_heads 1 \
+--gcn_layers 1 \
+--iters 2 \
 --use_graph

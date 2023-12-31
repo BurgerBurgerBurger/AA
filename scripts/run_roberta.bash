@@ -23,4 +23,7 @@ python run.py --do_train \
 --num_train_epochs 30.0 \
 --seed ${SEED} \
 --num_class 97 \
+--attn_heads 1 \
+--gcn_layers 1 \
+--iters 2 \
 --use_graph
